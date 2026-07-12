@@ -1,0 +1,36 @@
+es/discrimination/" target="_blank" rel="noopener">参照リンク</a></li>
+<li>AセクAロマ部，2025，「『ハリー・ポッター』原作者のJ・K・ローリングがアセクシュアル差別発言で批判を浴びる」（2025年5月3日取得） <a href="https://acearobu.com/jkrowling-acephobia/" target="_blank" rel="noopener">参照リンク</a></li>
+<li>AsLoop，2022，『アロマンティック／アセクシュアル・スペクトラム調査2022概要報告』（2025年11月18日取得） <a href="https://asloop.jimdofree.com/aro-ace%E8%AA%BF%E6%9F%BB/%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C/2022/" target="_blank" rel="noopener">参照リンク</a></li>
+<li>Butler, Judith, 1990, 竹村和子訳，1999，『ジェンダー・トラブル―フェミニズムとアイデンティティの攪乱』青土社．</li>
+<li>Butler, Judith, 1993, 杉浦悦子訳，1996，「模倣とジェンダーへの抵抗」『imago』7（6）: 116-35．</li>
+<li>藤高和輝，2018，『ジュディス・バトラー―生と哲学を賭けた闘い』以文社．</li>
+<li>藤高和輝，2022，『〈トラブル〉としてのフェミニズム―「とり乱させない抑圧」に抗して』青土社．</li>
+<li>堀江有里，2015，『レズビアン・アイデンティティーズ』洛北出版．</li>
+<li>池田喬・堀田義太郎，2021，『差別の哲学入門』アルパカ．</li>
+<li>掛札悠子，1997，「抹消（抹殺）されること」河合隼雄・大庭みな子編『現代日本文化論 2 家族と性』岩波書店，147-71．</li>
+<li>釜野さおり・石田仁・風間孝・平森大規・吉仲崇・河口和也，2020，『性的マイノリティについての意識：2019年（第2回）全国調査報告会配布資料』 <a href="http://alpha.shudo-u.ac.jp/~kawaguch/2019chousa.pdf" target="_blank" rel="noopener">参照リンク</a></li>
+<li>釜野さおり・岩本健良・小山泰代・申知燕・武内今日子・千年よしみ・平森大規・藤井ひろみ・布施香奈・山内昌和，2023，「家族と性と多様性にかんする全国アンケート結果概要」 <a href="https://www.ipss.go.jp/projects/j/SOGI2/ZenkokuSOGISummary20231027.pdf" target="_blank" rel="noopener">参照リンク</a></li>
+<li>河野真理江，2021，「映像メディアにおける同性愛表象の現在」『現代思想』49（10）: 194-201．</li>
+<li>松浦優，2020，「メランコリー的ジェンダーと強制的性愛―アセクシュアルの『抹消』に関する理論的考察」『ジェンダー&amp;セクシュアリティ』（15）: 115-37．</li>
+<li>松浦優，2023，「抹消の現象学的社会学―類型化されないことをともなう周縁化について」『社会学評論』74（1）: 158-74．</li>
+<li>松浦優，2025，『アセクシュアルアロマンティック入門―性的惹かれや恋愛感情を持たない人たち』集英社．</li>
+<li>松浦優，2026［近刊］，「二次元性愛のクィア・メディア理論―ポストヒューマニズム的かつパフォーマティヴに生成するセクシュアリティと社会運動」『社会学年誌』（67）．</li>
+<li>中井大助，2025，「米国務省サイト『LGB』に変更　『性別は男女だけ』の大統領令受け」朝日新聞（2025年11月18日取得） <a href="https://www.asahi.com/articles/AST220G7ZT22UHBI006M.html" target="_blank" rel="noopener">参照リンク</a></li>
+<li>清水晶子，2004，「期待を裏切る―フェムとその不可視の『アイデンティティ』について」『女性学』（11）: 52-68．</li>
+<li>清水晶子，2020，「埋没した棘―現れないかもしれない複数性のクィア・ポリティクスのために」『思想』（1151）: 35-51．</li></ol>
+</details>
+<div class="footer">Readable HTML reconstructed from the supplied PDF. <a href="#top">ページ上部へ</a></div>
+</main>
+</div>
+<script>
+const root=document.documentElement, progress=document.getElementById('progress');
+let size=Number(localStorage.getItem('paperFont')||18);
+function setSize(v){size=Math.max(15,Math.min(23,v));root.style.setProperty('--article-size',size+'px');localStorage.setItem('paperFont',size)}
+setSize(size);document.getElementById('fontUp').onclick=()=>setSize(size+1);document.getElementById('fontDown').onclick=()=>setSize(size-1);
+const savedTheme=localStorage.getItem('paperTheme');if(savedTheme)root.dataset.theme=savedTheme;
+document.getElementById('theme').onclick=()=>{const next=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=next;localStorage.setItem('paperTheme',next)};
+function updateProgress(){const h=document.documentElement.scrollHeight-innerHeight;progress.style.width=(h>0?(scrollY/h*100):0)+'%'}addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+const links=[...document.querySelectorAll('#toc a')], targets=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-20% 0px -70% 0px'});targets.forEach(t=>observer.observe(t));
+</script>
+</body></html>
