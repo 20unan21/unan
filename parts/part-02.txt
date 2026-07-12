@@ -1,0 +1,21 @@
+rid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.data-card{padding:18px;border:1px solid var(--line);border-radius:15px}.data-card strong{display:block;font:700 27px/1.2 var(--serif);color:var(--teal)}.data-card span{font-size:12px;color:var(--muted)}
+.concept-map{display:grid;grid-template-columns:1fr 56px 1fr;align-items:stretch;gap:8px;margin-top:18px}.concept{padding:18px;border-radius:15px;background:var(--accent-soft)}.concept h3{margin:0 0 8px;color:var(--accent);font-size:17px}.arrow{display:grid;place-items:center;color:var(--muted);font-size:24px}
+.paper-section{scroll-margin-top:24px;margin:28px 0;padding:48px 54px;border:1px solid var(--line);border-radius:24px;background:var(--paper)}.section-kicker{display:flex;justify-content:space-between;gap:15px;color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.12em}.paper-section h2{display:flex;align-items:flex-start;gap:17px;margin:19px 0 24px;font:700 30px/1.5 var(--serif);letter-spacing:-.02em}.section-number{display:grid;place-items:center;flex:0 0 38px;height:38px;margin-top:3px;border-radius:50%;background:var(--accent);color:var(--paper);font:700 16px var(--sans)}.section-brief{display:grid;grid-template-columns:110px 1fr;gap:18px;margin:0 0 32px;padding:18px 20px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:0 12px 12px 0}.section-brief span{font-size:12px;font-weight:800;color:var(--accent)}.section-brief p{margin:0!important;font-family:var(--sans)!important;font-size:14px!important;line-height:1.8!important}
+.paper-section>p{margin:0 0 1.28em;font:400 var(--article-size)/2.05 var(--serif);text-align:justify;letter-spacing:.012em}.paper-section strong{font-weight:700;background:linear-gradient(transparent 62%,color-mix(in srgb,var(--accent) 23%,transparent) 0)}blockquote{margin:32px 0;padding:26px 30px;border-left:5px solid var(--teal);background:var(--bg);font:500 calc(var(--article-size) + 1px)/2 var(--serif)}sup a{text-decoration:none;font-family:var(--sans);font-size:.72em}
+.notes,.references{margin:28px 0;padding:36px 42px;border:1px solid var(--line);border-radius:22px;background:var(--paper)}.notes h2,.references summary{font:700 24px/1.5 var(--serif)}.notes ol,.references ol{padding-left:1.5em}.notes li,.references li{margin:.8em 0;font-size:14px;line-height:1.8}.references summary{cursor:pointer}.references[open] summary{margin-bottom:20px}.backtop{display:inline-block;margin-top:8px;font-size:12px}
+.footer{padding:24px 0;color:var(--muted);font-size:12px;text-align:center}.normalization-note{margin-top:18px;padding-top:15px;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}
+@media(max-width:900px){.layout{display:block;padding:20px 14px 90px}aside{display:none}.mobile-toc{display:block}.hero{padding:38px 28px}.overview-grid,.data-strip{grid-template-columns:1fr}.concept-map{grid-template-columns:1fr}.arrow{transform:rotate(90deg)}.paper-section{padding:34px 25px}.section-brief{grid-template-columns:1fr;gap:4px}.paper-section>p{text-align:left}}
+@media print{body{background:#fff}.layout{display:block;max-width:900px;padding:0}aside,.toolbar,.progress,.mobile-toc{display:none!important}.hero,.overview,.paper-section,.notes,.references{box-shadow:none;break-inside:auto}.paper-section{border:0;border-top:1px solid #aaa;border-radius:0}a{color:inherit;text-decoration:none}}
+</style>
+</head>
+<body id="top">
+<div class="progress" id="progress"></div>
+<div class="toolbar" aria-label="表示設定">
+<button type="button" id="fontDown" title="文字を小さく">A−</button>
+<button type="button" id="fontUp" title="文字を大きく">A＋</button>
+<button type="button" id="theme" title="配色を切り替える">◐</button>
+<button type="button" onclick="window.print()" title="印刷">⎙</button>
+</div>
+<div class="layout">
+<aside>
+<div cla
